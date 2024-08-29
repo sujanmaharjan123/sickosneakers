@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>sneaker shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+</head>
+<body>
+    <nav id="nav">
+        <div class="head">
+            <a href="#"><div class="navtop"><img src="image/sneaker.png"alt=""></div></a>
+        <div class="naviteam">
+            <div class="search ms-5">
+            <input type="text" placeholder="search..."class="searchinput" id="point">
+          <i class="fa-solid fa-magnifying-glass ms-2"></i>
+        </div>
+        </div>
+        <div class="naviteam">
+            <div class="navbottom">
+                <h5 class="menu">AIR FORCE</h5>
+                <h5 class="menu">JORDAN</h5>
+                <h5 class="menu">BLAZZERS</h5>
+                <h5 class="menu">CRATER</h5>
+                <h5 class="menu">HIPPIE</h5>
+                    <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+           
+    </div>
+     </nav>
+   
+    <div class="slider">
+        <div class="sliderwrapper">
+            <div class="slideritem">
+                <img src="image/airforce.webp" alt="" id="margin-top" class="sliderimage" width="900" >
+                <div class="sliderbg"></div>
+                    <h1 class="slidertitle"><b>AIR FORCE <br>NEW <br>SEASON</b></h1>
+                    <h2 class="sliderprice">$200</h2>
+                    <button class="buybutton">BUY NOW</button>
+                </div>
+                <div class="slideritem">
+                    <img src="image/jordan.png" alt="" width="600" class="sliderimage" >
+                    <div class="sliderbg"></div>
+                        <h1 class="slidertitle"><b>JORDAN <br>NEW <br>SEASON</b></h1>
+                        <h2 class="sliderprice">$200</h2>
+                        <button class="buybutton">BUY NOW</button>
+                    </div>
+                    <div class="slideritem">
+                        <img src="image/blazzers.png" alt="" width="500" class="sliderimage" >
+                        <div class="sliderbg"></div>
+                            <h1 class="slidertitle"><b>BALZZERS <br>NEW <br>SEASON</b></h1>
+                            <h2 class="sliderprice">$200</h2>
+                            <button class="buybutton">BUY NOW</button>
+                        </div>
+                        <div class="slideritem">
+                            <img src="image/crater1.png" alt=""width="500" class="sliderimage" >
+                            <div class="sliderbg"></div>
+                                <h1 class="slidertitle"><b>CREATER <br>NEW <br>SEASON</b></h1>
+                                <h2 class="sliderprice">$200</h2>
+                                <button class="buybutton">BUY NOW</button>
+                            </div>
+                            <div class="slideritem">
+                                <img src="image/hippie1.png" alt="" width="700" class="sliderimage" >
+                                <div class="sliderbg"></div>
+                                    <h1 class="slidertitle"><b>HIPPIE <br>NEW <br>SEASON</b></h1>
+                                    <h2 class="sliderprice">$200</h2>
+                                    <button class="buybutton">BUY NOW</button>
+                                </div>
+            
+        </div>
+    </div>
+   
+    <div class="brands mt-5">
+        <h1 class="size text-black" ><b>Shop By Brands</b></h1>
+    </div>
+    <div class="feature">
+        <div class="box">
+            <img src="image/addidas.webp" alt="" class="brand">
+        </div>
+        <div class="box">
+            <img src="image/nb.webp" alt="" class="brand">
+        </div>
+        <div class="box">
+            <img src="image/hoka.webp" alt="" class="brand">
+        </div>
+        <div class="box">
+            <img src="image/brand-6up-on.webp" alt="" class="brand">
+        </div>
+        <div class="box">
+            <img src="image/nike.webp" alt="" class="brand">
+        </div>
+        <div class="box">
+            <img src="image/ugg.webp" alt="" class="brand">
+        </div>
+
+    </div>
+    <div class="brands mt-5">
+        <h1 class="size text-black" ><b>New shoe arrivals</b></h1>
+    </div>
+    <div class="feature">
+        <div class="box2">
+            <img src="image/arrivals/nikef1.webp" alt="" class="brand">
+            <p>Nike Air Force 1</p>
+        </div>
+        <div class="box2">
+            <img src="image/arrivals/jordan low.webp" alt="" class="brand">
+            <p>Jordan XXXVIII Low</p>
+        </div>
+        <div class="box2">
+            <img src="image/arrivals/crocs3.webp" alt="" class="brand">
+            <p>Crocs 'Demon Slayer'</p>
+        </div>
+        <div class="box2">
+            <img src="image/arrivals/crocs2.webp" alt="" class="brand">
+            <p>Crocs 'Naruto'</p>
+        </div>
+        <div class="box2">
+            <img src="image/arrivals/nikeslide.webp" alt="" class="brand">
+            <p>Nike Calm Slide</p>
+        </div>
+        <div class="box2">
+            <img src="image/arrivals/crocs.webp" alt="" class="brand">
+            <p>Crocs 'Toy Story'</p>
+        </div>
+       
+    </div>
+   
+    <div class="product">
+        <!-- Modal trigger button -->
+         <button
+            type="button"
+            class="product-details"
+            data-bs-toggle="modal"
+            data-bs-target="#modalId"
+        >
+        <b>Shop 200's Running ></b>
+        </button>
+         
+        <!-- Modal Body -->
+        <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+        <div
+            class="modal fade"
+            id="modalId"
+            tabindex="-1"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            
+            role="dialog"
+            aria-labelledby="modalTitleId"
+            aria-hidden="true"
+        >
+            <div
+                class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm payment"
+                role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitleId">
+                            <h3 class="paytitle">Personal Information</h3>
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="payment">
+                         <label for="">Name and Surname</label>
+                        <input class="payinput" placeholder="sujan maharjan" type="text"></input>
+                        <label for="">Phone Number</label>
+                        <input class="payinput" placeholder="98765462834" type=""></input><br>
+                        <label for="">Address</label><br>
+                        <input class="payinput" placeholder="kathmandu" type="text"></input>
+                        <h4 class="paytitle">Card information</h4 class="paytitle">
+                            <div class="cardicons">
+                                <img src="image/visa.jpg" alt=""class="cardicon" width="40">
+                                <img src="image/mastercard.png" alt="" class="cardicon" width="40">
+                            </div>
+                            <input type="password" class="payinput" placeholder="card Number">
+                            <div class="cardinfo">
+                                  <input type="text"  placeholder="mm" class="payinput sm">
+                                  <input type="text"  placeholder="yyyy" class="payinput sm">
+                                  <input type="text"  placeholder="cvv" class="payinput sm">
+                            </div>
+                      </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <button type="button" class="color">check out!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         
+        <!-- Optional: Place to the bottom of scripts -->
+        <script>
+            const myModal = new bootstrap.Modal(
+                document.getElementById("modalId"),
+                options,
+            );
+        </script>
+    </div>
+    
+    <div class="gallery">
+        <div class="galleryitem"> 
+        <img src="image/gallery/fouth.webp" alt="" class="galleryimg">
+        <h1  class="gallerytitle"><b>Be your self!</b></h1>
+        <a href="#" class="para"><span class="first">SHOP ADIDAS AE 1 'BEST OF ADI'</span></a>
+     
+     </div>
+     <div class="galleryitem">
+       
+        <img src="image/gallery/second.webp" alt="" class="galleryimg" width="300">
+        <h1  class="gallerytitle"><b>Take It Further!</b></h1>
+        <a href="#" class="para"><span class="second">SHOP ON RUNNING</span></a>
+
+    </div>
+    <div class="galleryitem">
+        
+        <img src="image/gallery/third.webp" alt="" class="galleryimg">
+        <h1  class="gallerytitle"><b>Spring Fresh!</b></h1>
+       <a href="#" class="para"> <span class="third">SHOP SPRING WHITES</span></a>
+
+    </div>
+    
+
+    </div>
+      <div class="newseason"> 
+               <div class="nsiteam">
+                <img src="image/ns.webp" alt="" class="nsimg">
+               </div>
+               <div class="nsiteam">
+                <h3 class="nstitlesm">WINTER NEW ARRIVALS</h3>
+                <h1 class="nstitlesm">NEW SEASON</h1>
+                <h1 class="nstitlesm">New Collecion</h1>
+                 <a href="#nav">
+                    <button class="nsbutton">Choose Your Style</button>
+                 </a>
+
+               </div>
+               <div class="nsiteam">
+                <img src="image/ns2.webp" alt="" class="nsimg">
+               </div>
+        </div>
+       
+        <footer>
+            <div class="footerleft">
+            
+                <div class="footermenu">
+                    <h1 class="fmenutitle">About us</h1>
+                    <ul class="flist">
+                        <li class="flistitem">cmpany</li>
+                        <li class="flistitem">contact
+                           </li>
+                        <li class="flistitem"> careers
+                           </li>
+                        <li class="flistitem"> affiliates
+                            </li>
+                        <li class="flistitem">
+                          stores</li>
+                    </ul>
+                </div>
+                <div class="footermenu">
+                    <h1 class="fmenutitle">Useful Links</h1>
+                    <ul class="flist">
+                        <li class="flistitem">support</li>
+                        <li class="flistitem"> Refind
+                           </li>
+                        <li class="flistitem"> FAQ
+                           </li>
+                        <li class="flistitem">Feedbacks
+                            </li>
+                        <li class="flistitem">
+                            Stories</li>
+                    </ul>
+                </div>
+                <div class="footermenu">
+                    <h1 class="fmenutitle">Products</h1>
+                    <ul class="flist">
+                        <li class="flistitem">KYRIE IRVING</li>
+                        <li class="flistitem">Air Forces
+                           </li>
+                        <li class="flistitem"> Air Max
+                           </li>
+                        <li class="flistitem"> blazzers
+                            </li>
+                        <li class="flistitem">
+                            Hippie</li>
+                    </ul>
+                </div>
+            </div>
+          <div class="footerright">
+                <div class="footerrightmenu">
+                    <h1 class="fmenutitle">Subscribe to our newletter</h1>
+                    <div class="fmail">
+                        <input type="text" class="finput" placeholder="your@email.com">
+                        <button class="fbutton">Join!</button>
+                    </div>
+                    <div class="footerrightmenu mt-3">
+                        <h1 class="fmenutitle">Follow Us</h1>
+                        <div class="ficons">
+                            <i class="fa-brands fa-facebook ficon"></i>
+                            <i class="fa-brands fa-instagram ficon"></i>
+                            <i class="fa-brands fa-twitter ficon"></i>
+                            <i class="fa-brands fa-whatsapp ficon"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerrrightmenu">
+                    <p class="copyright">@sujanmaharjan. All right reserved. 2024</p>
+                </div>
+            </div>
+            
+        </footer> 
+    
+  
+<script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/668863c7f2.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
